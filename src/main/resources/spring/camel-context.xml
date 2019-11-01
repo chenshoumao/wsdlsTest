@@ -83,6 +83,7 @@
                                     pattern="InOnly" />
                 <to id="_toerror" uri="seda:error" pattern="InOnly"/>
             </onException>
+            <to uri="seda:loginfo" pattern="InOnly"/>
             <log id="_log6" message=">> Body : ${body}" />
         </route>
         <!--log data convert Route-->
