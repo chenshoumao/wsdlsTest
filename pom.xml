@@ -137,13 +137,13 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/sqljdbc4 -->
+        <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/sqljdbc4 
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>sqljdbc4</artifactId>
             <version>4.0</version>
-            <!-- 		    <scope>test</scope> -->
-        </dependency>
+          		    <scope>test</scope> 
+        </dependency>-->
         <!-- https://mvnrepository.com/artifact/com.oracle/ojdbc6 -->
         <dependency>
             <groupId>com.oracle</groupId>
